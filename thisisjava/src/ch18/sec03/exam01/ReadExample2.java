@@ -9,16 +9,27 @@ public class ReadExample2 {
 		try {
 			InputStream is = new FileInputStream("");
 			byte[] data = new byte[100];
-			while(true) {
+			
+//			while(true) {
+//				System.out.println("while 반복");
+//				int num = is.read(data);
+//				if(num == -1) break;
+//
+//				for(int i = 0; i < num; i++) {
+//					System.out.println(data[i]);
+//				}
+//				
+//			}
+			
+			int num = 0;
+			while((num = is.read(data)) != -1) {
 				System.out.println("while 반복");
-				int num = is.read(data);
-				if(num == -1) break;
-
-				for(int i = 0; i < num; i++) {
+				
+				for(int i = 0; i < num; i++){
 					System.out.println(data[i]);
 				}
-				
 			}
+			
 			is.close();
 		} catch(Exception e) {
 			e.printStackTrace();
