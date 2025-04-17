@@ -12,7 +12,6 @@ public class ParseJsonExample {
 	public static void main(String[] args) throws Exception{
 		BufferedReader br = new BufferedReader(
 				new FileReader("/Users/yhee/Desktop/MAC/temp/member.json", Charset.forName("UTF-8")));
-		
 		String json = br.readLine();
 		br.close();
 		
