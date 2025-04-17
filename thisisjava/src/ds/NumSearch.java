@@ -10,7 +10,7 @@ public class NumSearch {
 		//Scanner sc = new Scanner(System.in);
 		
 		int[] numstrs = {2455373, 425, 373};
-		String str1 = Arrays.toString(numstrs);
+		String str1 = Integer.(numstrs);
 		char str2;
 		
 		for(int i = 0; i < 19; i++) {
