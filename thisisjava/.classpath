@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="/Users/yhee/Desktop/JAVA/lombok-1.18.38.jar"/>
 	<classpathentry kind="lib" path="/Users/yhee/Desktop/JAVA/json-20250107.jar"/>
 	<classpathentry kind="lib" path="/Users/yhee/Desktop/JAVA/ojdbc11-23.7.0.25.01.jar"/>
+	<classpathentry kind="lib" path="/Users/yhee/Desktop/JAVA/mariadb-java-client-3.5.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
